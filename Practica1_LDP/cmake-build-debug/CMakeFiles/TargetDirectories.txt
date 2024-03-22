@@ -1,0 +1,3 @@
+C:/Users/Sebas/CLionProjects/Practica1_LDP/cmake-build-debug/CMakeFiles/Practica1_LDP.dir
+C:/Users/Sebas/CLionProjects/Practica1_LDP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sebas/CLionProjects/Practica1_LDP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
