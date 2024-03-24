@@ -7,12 +7,37 @@
 //Inicializo la variable estatica
 int TeamDriverA::numOfMember = 0;
 
-//Constructor
-TeamDriverA::TeamDriverA(string raceCarToFix, bool beReady, string name, int age, string position, int salary)
-    : PitCrewTeam(name, age, position, salary){
+//Constructores con polimorfismo
+TeamDriverA::TeamDriverA(string raceCarToFix, bool beReady, string name, int age, string position, int salary,
+        bool spare, bool unable, float weight) : PitCrewTeam(name, age, position, salary), FrontWingFlapAdjust(),
+        FrontJack(spare, unable, weight), RearJack(), SideJack(){
     numOfMember++;
     this->beReady = beReady;
     this->raceCarToFix = raceCarToFix;
+    if(!canRecruit()){
+        cout << name << " quedara en espera hasta que se abra un cupo" << endl;
+    }
+}
+TeamDriverA::TeamDriverA(string raceCarToFix, bool beReady, string name, int age, string position, int salary,
+        bool conditionOfTheWing, int adjustmentsMade, bool drillOn) : PitCrewTeam(name, age, position, salary),
+        FrontWingFlapAdjust(conditionOfTheWing, adjustmentsMade, drillOn), FrontJack(), RearJack(), SideJack(){
+    numOfMember++;
+    this->beReady = beReady;
+    this->raceCarToFix = raceCarToFix;
+    if(!canRecruit()){
+        cout << name << " quedara en espera hasta que se abra un cupo" << endl;
+    }
+}
+TeamDriverA::TeamDriverA(string raceCarToFix, bool beReady, string name, int age, string position, int salary,
+        bool workFinished, bool JackAvailable) : PitCrewTeam(name, age, position, salary),
+        FrontWingFlapAdjust(), FrontJack(), RearJack(beReady, JackAvailable, workFinished),
+        SideJack(beReady, JackAvailable, workFinished){
+    numOfMember++;
+    this->beReady = beReady;
+    this->raceCarToFix = raceCarToFix;
+    if(!canRecruit()){
+        cout << name << " quedara en espera hasta que se abra un cupo" << endl;
+    }
 }
 
 //Setters
@@ -57,7 +82,7 @@ void TeamDriverA::getReady(string raceCar) {
     }
 }
 bool TeamDriverA::canRecruit() {
-    if(numOfMember < MAXIMUM_NUM_OF_MEMBERS){
+    if(numOfMember <= MAXIMUM_NUM_OF_MEMBERS){
         return true;
     }else{
         return false;

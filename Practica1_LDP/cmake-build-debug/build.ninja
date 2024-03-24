@@ -61,11 +61,11 @@ build CMakeFiles/Practica1_LDP.dir/Teams/F1team.cpp.obj: CXX_COMPILER__Practica1
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
   OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/LollipopMan.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/LollipopMan.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\LollipopMan.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/LollipopMan.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/LollipopMan.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\LollipopMan.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
 build CMakeFiles/Practica1_LDP.dir/Teams/PitCrewTeam.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/PitCrewTeam.cpp || cmake_object_order_depends_target_Practica1_LDP
   DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\PitCrewTeam.cpp.obj.d
@@ -85,47 +85,47 @@ build CMakeFiles/Practica1_LDP.dir/Teams/TeamDriverB.cpp.obj: CXX_COMPILER__Prac
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
   OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/TyreGunner.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/TyreGunner.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\TyreGunner.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreGunner.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/TyreGunner.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\TyreGunner.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/TyreOff.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/TyreOff.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\TyreOff.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreOff.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/TyreOff.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\TyreOff.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/TyreOn.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/TyreOn.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\TyreOn.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreOn.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/TyreOn.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\TyreOn.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/FrontJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/FrontJack.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\FrontJack.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/FrontJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/FrontJack.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\FrontJack.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/RearJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/RearJack.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\RearJack.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/RearJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/RearJack.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\RearJack.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/SideJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/SideJack.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\SideJack.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/SideJack.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/SideJack.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\SideJack.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
-build CMakeFiles/Practica1_LDP.dir/Tasks/FrontWingFlapAdjust.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Tasks/FrontWingFlapAdjust.cpp || cmake_object_order_depends_target_Practica1_LDP
-  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Tasks\FrontWingFlapAdjust.cpp.obj.d
+build CMakeFiles/Practica1_LDP.dir/Teams/Tasks/FrontWingFlapAdjust.cpp.obj: CXX_COMPILER__Practica1_LDP_unscanned_Debug C$:/Users/Sebas/CLionProjects/Practica1_LDP/Teams/Tasks/FrontWingFlapAdjust.cpp || cmake_object_order_depends_target_Practica1_LDP
+  DEP_FILE = CMakeFiles\Practica1_LDP.dir\Teams\Tasks\FrontWingFlapAdjust.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir
-  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Tasks
+  OBJECT_FILE_DIR = CMakeFiles\Practica1_LDP.dir\Teams\Tasks
 
 
 # =============================================================================
@@ -135,7 +135,7 @@ build CMakeFiles/Practica1_LDP.dir/Tasks/FrontWingFlapAdjust.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable Practica1_LDP.exe
 
-build Practica1_LDP.exe: CXX_EXECUTABLE_LINKER__Practica1_LDP_Debug CMakeFiles/Practica1_LDP.dir/main.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/F1team.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/LollipopMan.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/PitCrewTeam.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/TeamDriverA.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/TeamDriverB.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/TyreGunner.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/TyreOff.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/TyreOn.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/FrontJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/RearJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/SideJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Tasks/FrontWingFlapAdjust.cpp.obj
+build Practica1_LDP.exe: CXX_EXECUTABLE_LINKER__Practica1_LDP_Debug CMakeFiles/Practica1_LDP.dir/main.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/F1team.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/LollipopMan.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/PitCrewTeam.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/TeamDriverA.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/TeamDriverB.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreGunner.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreOff.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/TyreOn.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/FrontJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/RearJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/SideJack.cpp.obj CMakeFiles/Practica1_LDP.dir/Teams/Tasks/FrontWingFlapAdjust.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practica1_LDP.dir

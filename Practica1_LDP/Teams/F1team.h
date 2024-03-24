@@ -8,22 +8,20 @@
 #include <iostream>
 using namespace std;
 
+//Abstraccion (crear una clase de una situacion de la vida real)
 class F1team {
 
-private:
+private: //Encapsulamiento
     //Atributos
     const static int MAXIMUM_NUM_OF_MEMBERS = 20;
     string name;
     int yearOfFundation;
-    static int numOfMembers;
     string sponsor;
     int wins;
     int losts;
     string raceCars[2];
     /*Este arreglo tendra en su interior los 2 carros con los que
     cuenta el equipo*/
-
-
 
 public:
     //Constructor
@@ -43,7 +41,6 @@ public:
     //Getters
     string getName();
     int getYearOfFundation();
-    int getNumOfMembers();
     string getSponsor();
     int getWins();
     int getLosts();
@@ -51,7 +48,7 @@ public:
     static int getMaximumNumOfMembers();
 
     //Mis metodos
-    void canRace();
+    void presentacionDelEquipo();
     void sentimientosDeLosHinchas();
 };
 

@@ -4,8 +4,36 @@
 
 #include "PitCrewTeam.h"
 
-//Constructor
-PitCrewTeam::PitCrewTeam(string name, int age, string position, int salary) {
+//Constructores con polimorfismo
+PitCrewTeam::PitCrewTeam(string name, int age, string position, int salary) : LollipopMan(), TyreOff(), TyreGunner(), TyreOn(){
+    this->name = name;
+    this->age = age;
+    this->position = position;
+    this->salary = salary;
+}
+PitCrewTeam::PitCrewTeam(string name, int age, string position, int salary, bool placeFound,bool placeDontHinder)
+        : LollipopMan(placeFound, placeDontHinder), TyreOff(), TyreGunner(), TyreOn(){
+    this->name = name;
+    this->age = age;
+    this->position = position;
+    this->salary = salary;
+}
+PitCrewTeam::PitCrewTeam(int age, string position, string name, int salary, bool beReady,bool wheelGunON)
+        : TyreGunner(beReady, wheelGunON), LollipopMan(), TyreOff(), TyreOn(){
+    this->name = name;
+    this->age = age;
+    this->position = position;
+    this->salary = salary;
+}
+PitCrewTeam::PitCrewTeam(string name, int age, string position, int salary, bool beReady,bool wheelOnHand, bool finished)
+        : TyreOff(beReady, wheelOnHand, finished), LollipopMan(), TyreGunner(), TyreOn(){
+    this->name = name;
+    this->age = age;
+    this->position = position;
+    this->salary = salary;
+}
+PitCrewTeam::PitCrewTeam(int age, string position, string name, int salary, bool beReady,bool wheelAvailable, bool finished)
+        : TyreOn(beReady, wheelAvailable, finished), LollipopMan(), TyreGunner(), TyreOff(){
     this->name = name;
     this->age = age;
     this->position = position;
@@ -49,7 +77,12 @@ void PitCrewTeam::report(){
 void PitCrewTeam::happines(){
     if(this->salary < 2000){
         cout << "Me gustaria ganar mas :(" << endl;
+        aumentarSalario();
+        cout << "Me aumentaron 1000 el salario :D, ahora estoy mas feliz" << endl;
     }else{
         cout << "Me gusta mucho mi trabajo :D" << endl;
     }
+}
+void PitCrewTeam::aumentarSalario() {
+    this->salary += 1000;
 }

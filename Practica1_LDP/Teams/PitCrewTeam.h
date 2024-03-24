@@ -5,23 +5,31 @@
 #ifndef PRACTICA1_LDP_PITCREWTEAM_H
 #define PRACTICA1_LDP_PITCREWTEAM_H
 
-#include <iostream>
-using namespace std;
+#include "Tasks/LollipopMan.h"
+#include "Tasks/TyreGunner.h"
+#include "Tasks/TyreOff.h"
+#include "Tasks/TyreOn.h"
 
-
-class PitCrewTeam {
-private:
+//Abstraccion (crear una clase de una situacion de la vida real)
+//Herencia (una clase que hereda de varias otras clases)
+class PitCrewTeam : public LollipopMan, public TyreGunner, public TyreOff, public TyreOn{
+private: //Encapsulamiento
     //Atributos
     string name;
     int age;
     string position;
     int salary;
 
-
+    //Mi metodo privado
+    void aumentarSalario();
 
 public:
-    //Constructor
-    PitCrewTeam(string name, int age, string position, int salary);
+    //Constructores con polimorfismo
+    PitCrewTeam(string name, int age, string position, int salary);//Para los drivers team
+    PitCrewTeam(string name, int age, string position, int salary, bool placeFound, bool placeDontHinder);//LollipopMan
+    PitCrewTeam(int age, string position, string name, int salary, bool wheelGunOn, bool beReady);//TyreGunner
+    PitCrewTeam(string name, int age, string position, int salary, bool beReady, bool wheelOnHand, bool finished);//TyreOff
+    PitCrewTeam(int age, string position, string name, int salary, bool beReady, bool wheelAvailable, bool finished);//TyreOn
 
     //Setters
     void setName(string name);

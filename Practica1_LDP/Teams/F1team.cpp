@@ -4,8 +4,6 @@
 
 #include "F1team.h"
 
-//Inicializo la variable estatica
-int F1team::numOfMembers = 0;
 
 //Constructor
 F1team::F1team(string name, int yearOfFundation, string sponsor, int wins, int losts, string raceCar1, string raceCar2){
@@ -16,7 +14,6 @@ F1team::F1team(string name, int yearOfFundation, string sponsor, int wins, int l
     this->losts = losts;
     this->raceCars[0] = raceCar1;
     this->raceCars[1] = raceCar2;
-    numOfMembers++;
 }
 
 //Setters
@@ -50,9 +47,7 @@ string F1team::getName(){
 int F1team::getYearOfFundation() {
     return this->yearOfFundation;
 }
-int F1team::getNumOfMembers(){
-    return this->numOfMembers;
-}
+
 string F1team::getSponsor(){
     return this->sponsor;
 }
@@ -74,12 +69,9 @@ int F1team::getMaximumNumOfMembers() {
 }
 
 //Mis metodos
-void F1team::canRace(){
-    if(this->numOfMembers < 20){
-        cout <<"Este equipo no puede correr, falta personal :("<<endl;
-    }else{
-        cout <<"Este equipo esta listo para correr :D"<<endl;
-    }
+void F1team::presentacionDelEquipo() {
+    cout << "El nombre del equipo es " << getName() << ", se fundo en el ano " << getYearOfFundation() <<
+    "; al equipo lo patrocina " << getSponsor() << "y ha ganado " << getWins() << " veces :D \3" << endl;
 }
 void F1team::sentimientosDeLosHinchas(){
     if(this->wins > this->losts){
